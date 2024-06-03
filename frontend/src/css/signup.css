@@ -1,0 +1,63 @@
+.signup_body {
+  position: relative;
+}
+.signup_body .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 15vh 85vh;
+}
+.signup_body .content .body {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signup_body .content .body .text {
+  gap: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.signup_body .content .body .text h1 {
+  padding: 0 20rem;
+}
+.signup_body .content .body .form {
+  display: grid;
+  width: 50%;
+}
+.signup_body .content .body .form input {
+  color: black;
+  border: none;
+  padding: 1rem;
+  font-size: 0.75rem;
+  border: 1px solid black;
+}
+.signup_body .content .body .form input:focus {
+  outline: none;
+}
+.signup_body .content .body .form button {
+  padding: 0.5rem 1rem;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.05rem;
+}
+.signup_body .content .body button {
+  padding: 0.5rem 1rem;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 0.2rem;
+  font-weight: bolder;
+  font-size: 1.05rem;
+}

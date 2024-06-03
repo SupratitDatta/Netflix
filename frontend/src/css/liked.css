@@ -1,0 +1,17 @@
+.liked_body .content {
+  margin: 2.3rem;
+  margin-top: 8rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.liked_body .content h1 {
+  margin-left: 3rem;
+}
+.liked_body .content .grid {
+  flex-wrap: wrap;
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

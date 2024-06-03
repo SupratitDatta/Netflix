@@ -1,0 +1,8 @@
+.movies_body .data {
+  margin-top: 8rem;
+}
+.movies_body .data .not-available {
+  text-align: center;
+  color: white;
+  margin-top: 4rem;
+}

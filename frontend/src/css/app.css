@@ -1,0 +1,40 @@
+body {
+  overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.background_container {
+  height: 100vh;
+  width: 100vw;
+}
+.background_container img {
+  height: 100vh;
+  width: 100vw;
+}

@@ -1,0 +1,18 @@
+.select_body {
+    margin-left: 10vw;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    border-radius: 5px;
+    .genre {
+        background-color: rgb(60, 60, 60);
+        padding-bottom: 20px;
+        &:hover {
+            background-color: rgb(41, 41, 41);
+        }
+    }
+}
