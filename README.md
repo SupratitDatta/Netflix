@@ -14,10 +14,11 @@ A Netflix clone built with React, Node.js, MongoDB, Sass and Firebase.
 ## Technologies Used
 
 - **React.js**: A JavaScript library for building user interfaces.
+- **Node.js**: A JavaScript runtime for building server-side applications.
 - **Express**: A web application framework for Node.js.
 - **MongoDB**: A NoSQL database for storing reservation and user data.
-- **Axios**: A promise-based HTTP client for making API requests of reservation.
-- **React Router DOM**: A library for handling navigation and routing in React applications.
+- **Axios**: A promise-based HTTP client for making API requests for reservations.
+- **REST API**: An architectural style for designing networked applications using HTTP requests.applications.
 - **SCSS/CSS**: For styling the user interface and providing a responsive design.
 
 ## Installation
